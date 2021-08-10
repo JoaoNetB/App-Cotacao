@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Cotação</title>
+</head>
+
+<body>
+
+    <div class="content">
+
+        <div class="values">
+
+            <div class="valueDolar">
+                <h1>Cotação dolar</h1>
+                <p id="dolar"></p>
+            </div>
+
+            <div class="valueEuro">
+                <h1>Cotação euro</h1>
+                <p id="euro"></p>
+            </div>
+
+        </div>
+
+        <div class="calcCoin">
+            <select name="selectCoin" id="selectCoin">
+                <option value="dolar">Dolar</option>
+                <option value="euro">Euro</option>
+            </select>
+
+            <input type="number" id="valueCalc">
+
+            <button id="buttonCalc" onclick="calcValue('selectCoin', 'valueCalc')">Calcular</button>
+            
+        </div>
+
+        <p id="value"></p>
+    </div>
+
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>

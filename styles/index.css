@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.values {
+    display: flex;
+    margin-top: 55px;
+
+}
+
+.valueDolar {
+    
+    margin-right: 150px;
+    text-align: center;
+    border: solid 2px rgb(212, 212, 212);
+    border-radius: 10px;
+    
+
+}
+
+.valueDolar h1{
+
+    background-color: rgb(124, 91, 241);
+    padding: 0 30px 0 30px;
+    border-radius: 8px 8px 0 0;
+    color: #f2f2f2;
+    font-size: 40px;
+
+
+}
+
+.valueDolar p {
+
+    font-size: 30px;
+    margin: 30px 0 30px 0;
+}
+
+.valueEuro {
+    
+    text-align: center;
+    border: solid 2px rgb(212, 212, 212);
+    border-radius: 10px;
+    
+
+}
+
+.valueEuro h1{
+
+    background-color: rgb(124, 91, 241);
+    padding: 0 30px 0 30px;
+    border-radius: 8px 8px 0 0;
+    color: #f2f2f2;
+    font-size: 40px;
+
+
+}
+
+.valueEuro p {
+
+    font-size: 30px;
+    margin: 30px 0 30px 0;
+}
+
+.calcCoin {
+    display: flex;
+    text-align: center;
+    margin-top: 150px;
+    
+
+}
+
+#selectCoin {
+
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid rgb(212, 212, 212);
+    background-color: #f2f2f2;
+
+}
+
+#valueCalc {
+
+    height: 40px;
+    font-size: 20px;
+    margin: 0 10px 0 10px;
+    padding: 10px;
+}
+
+#buttonCalc {
+
+    border: none;
+    color: #f2f2f2;
+    font-size: 20px;
+    background-color: green;
+    width: 100px;
+    border-radius: 5px;
+}
+
+#buttonCalc:hover {
+
+    transition: 200ms;
+    opacity: 75%;
+}
+
+#value {
+
+    margin-top: 30px;
+    font-size: 35px;
+    color: rgb(124, 91, 241);
+}
+
